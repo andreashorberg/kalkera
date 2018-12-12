@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAE6184021C1700600B7172D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6183F21C1700600B7172D /* AppDelegate.swift */; };
+		BAE6184221C1700600B7172D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6184121C1700600B7172D /* ViewController.swift */; };
+		BAE6184521C1700600B7172D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184321C1700600B7172D /* Main.storyboard */; };
+		BAE6184721C1700800B7172D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184621C1700800B7172D /* Assets.xcassets */; };
+		BAE6184A21C1700800B7172D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184821C1700800B7172D /* LaunchScreen.storyboard */; };
+		BAE6185521C1700800B7172D /* KalkeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6185421C1700800B7172D /* KalkeraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAE6185121C1700800B7172D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAE6183421C1700600B7172D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE6183B21C1700600B7172D;
+			remoteInfo = Kalkera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BAE6183C21C1700600B7172D /* Kalkera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalkera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE6183F21C1700600B7172D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAE6184121C1700600B7172D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAE6184421C1700600B7172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE6184621C1700800B7172D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE6184921C1700800B7172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE6184B21C1700800B7172D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE6185021C1700800B7172D /* KalkeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalkeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE6185421C1700800B7172D /* KalkeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkeraTests.swift; sourceTree = "<group>"; };
+		BAE6185621C1700800B7172D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE6183921C1700600B7172D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6184D21C1700800B7172D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE6183321C1700600B7172D = {
+			isa = PBXGroup;
+			children = (
+				BAE6183E21C1700600B7172D /* Kalkera */,
+				BAE6185321C1700800B7172D /* KalkeraTests */,
+				BAE6183D21C1700600B7172D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE6183D21C1700600B7172D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6183C21C1700600B7172D /* Kalkera.app */,
+				BAE6185021C1700800B7172D /* KalkeraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE6183E21C1700600B7172D /* Kalkera */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6183F21C1700600B7172D /* AppDelegate.swift */,
+				BAE6184121C1700600B7172D /* ViewController.swift */,
+				BAE6184321C1700600B7172D /* Main.storyboard */,
+				BAE6184621C1700800B7172D /* Assets.xcassets */,
+				BAE6184821C1700800B7172D /* LaunchScreen.storyboard */,
+				BAE6184B21C1700800B7172D /* Info.plist */,
+			);
+			path = Kalkera;
+			sourceTree = "<group>";
+		};
+		BAE6185321C1700800B7172D /* KalkeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6185421C1700800B7172D /* KalkeraTests.swift */,
+				BAE6185621C1700800B7172D /* Info.plist */,
+			);
+			path = KalkeraTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE6183B21C1700600B7172D /* Kalkera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE6185921C1700800B7172D /* Build configuration list for PBXNativeTarget "Kalkera" */;
+			buildPhases = (
+				BAE6183821C1700600B7172D /* Sources */,
+				BAE6183921C1700600B7172D /* Frameworks */,
+				BAE6183A21C1700600B7172D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalkera;
+			productName = Kalkera;
+			productReference = BAE6183C21C1700600B7172D /* Kalkera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAE6184F21C1700800B7172D /* KalkeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE6185C21C1700800B7172D /* Build configuration list for PBXNativeTarget "KalkeraTests" */;
+			buildPhases = (
+				BAE6184C21C1700800B7172D /* Sources */,
+				BAE6184D21C1700800B7172D /* Frameworks */,
+				BAE6184E21C1700800B7172D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAE6185221C1700800B7172D /* PBXTargetDependency */,
+			);
+			name = KalkeraTests;
+			productName = KalkeraTests;
+			productReference = BAE6185021C1700800B7172D /* KalkeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE6183421C1700600B7172D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andreas Hörberg";
+				TargetAttributes = {
+					BAE6183B21C1700600B7172D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BAE6184F21C1700800B7172D = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BAE6183B21C1700600B7172D;
+					};
+				};
+			};
+			buildConfigurationList = BAE6183721C1700600B7172D /* Build configuration list for PBXProject "Kalkera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE6183321C1700600B7172D;
+			productRefGroup = BAE6183D21C1700600B7172D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE6183B21C1700600B7172D /* Kalkera */,
+				BAE6184F21C1700800B7172D /* KalkeraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE6183A21C1700600B7172D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6184A21C1700800B7172D /* LaunchScreen.storyboard in Resources */,
+				BAE6184721C1700800B7172D /* Assets.xcassets in Resources */,
+				BAE6184521C1700600B7172D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6184E21C1700800B7172D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE6183821C1700600B7172D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6184221C1700600B7172D /* ViewController.swift in Sources */,
+				BAE6184021C1700600B7172D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAE6184C21C1700800B7172D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE6185521C1700800B7172D /* KalkeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAE6185221C1700800B7172D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAE6183B21C1700600B7172D /* Kalkera */;
+			targetProxy = BAE6185121C1700800B7172D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAE6184321C1700600B7172D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE6184421C1700600B7172D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE6184821C1700800B7172D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE6184921C1700800B7172D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE6185721C1700800B7172D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAE6185821C1700800B7172D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE6185A21C1700800B7172D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				INFOPLIST_FILE = Kalkera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAE6185B21C1700800B7172D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				INFOPLIST_FILE = Kalkera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BAE6185D21C1700800B7172D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				INFOPLIST_FILE = KalkeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.KalkeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkera.app/Kalkera";
+			};
+			name = Debug;
+		};
+		BAE6185E21C1700800B7172D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				INFOPLIST_FILE = KalkeraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.KalkeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkera.app/Kalkera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE6183721C1700600B7172D /* Build configuration list for PBXProject "Kalkera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE6185721C1700800B7172D /* Debug */,
+				BAE6185821C1700800B7172D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE6185921C1700800B7172D /* Build configuration list for PBXNativeTarget "Kalkera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE6185A21C1700800B7172D /* Debug */,
+				BAE6185B21C1700800B7172D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE6185C21C1700800B7172D /* Build configuration list for PBXNativeTarget "KalkeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE6185D21C1700800B7172D /* Debug */,
+				BAE6185E21C1700800B7172D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE6183421C1700600B7172D /* Project object */;
+}
