@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2E90AF21D8003F004D7D69 /* KDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E90AE21D8003F004D7D69 /* KDevice.swift */; };
+		BA2E90B121D80D25004D7D69 /* KUnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */; };
+		BA82729321CD340F0008E77C /* UIImage+Noir.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82729221CD340F0008E77C /* UIImage+Noir.swift */; };
+		BA82729521CD3EE40008E77C /* UIImage+Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82729421CD3EE40008E77C /* UIImage+Slice.swift */; };
+		BA86073B21DEBF0000609D90 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86073921DEBEFF00609D90 /* Crashlytics.framework */; };
+		BA86073C21DEBF0000609D90 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86073A21DEBEFF00609D90 /* Fabric.framework */; };
+		BA895B9F21D27E4F007B2425 /* KLockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA895B9E21D27E4F007B2425 /* KLockButton.swift */; };
+		BA895BA221D293A6007B2425 /* Notification+Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA895BA121D293A6007B2425 /* Notification+Name.swift */; };
+		BAB5C79921E7E342007805FA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB5C79821E7E342007805FA /* Colors.xcassets */; };
+		BAB8030D21C199DE0053B2AF /* KViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8030C21C199DE0053B2AF /* KViewController.swift */; };
+		BAB8030F21C19FD40053B2AF /* KPickImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8030E21C19FD40053B2AF /* KPickImageViewModel.swift */; };
+		BAB8031121C1A31A0053B2AF /* KAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB8031021C1A31A0053B2AF /* KAppCoordinator.swift */; };
 		BAE6184021C1700600B7172D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6183F21C1700600B7172D /* AppDelegate.swift */; };
-		BAE6184221C1700600B7172D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6184121C1700600B7172D /* ViewController.swift */; };
-		BAE6184521C1700600B7172D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184321C1700600B7172D /* Main.storyboard */; };
+		BAE6184221C1700600B7172D /* KPickImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6184121C1700600B7172D /* KPickImageViewController.swift */; };
+		BAE6184521C1700600B7172D /* PickImage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184321C1700600B7172D /* PickImage.storyboard */; };
 		BAE6184721C1700800B7172D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184621C1700800B7172D /* Assets.xcassets */; };
 		BAE6184A21C1700800B7172D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE6184821C1700800B7172D /* LaunchScreen.storyboard */; };
 		BAE6185521C1700800B7172D /* KalkeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6185421C1700800B7172D /* KalkeraTests.swift */; };
+		BAE6186021C1705500B7172D /* KCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6185F21C1705500B7172D /* KCoordinator.swift */; };
+		BAE6186221C1724900B7172D /* KPrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6186121C1724900B7172D /* KPrimaryButton.swift */; };
+		BAE6186421C172FC00B7172D /* KTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE6186321C172FC00B7172D /* KTheme.swift */; };
+		BAFE438B21E7DA55006010E8 /* KCrashReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFE438A21E7DA55006010E8 /* KCrashReporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +42,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA2E90AE21D8003F004D7D69 /* KDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDevice.swift; sourceTree = "<group>"; };
+		BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUnitConverter.swift; sourceTree = "<group>"; };
+		BA82729221CD340F0008E77C /* UIImage+Noir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Noir.swift"; sourceTree = "<group>"; };
+		BA82729421CD3EE40008E77C /* UIImage+Slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Slice.swift"; sourceTree = "<group>"; };
+		BA86073921DEBEFF00609D90 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		BA86073A21DEBEFF00609D90 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		BA895B9E21D27E4F007B2425 /* KLockButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLockButton.swift; sourceTree = "<group>"; };
+		BA895BA121D293A6007B2425 /* Notification+Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Name.swift"; sourceTree = "<group>"; };
+		BAB5C79821E7E342007805FA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BAB8030C21C199DE0053B2AF /* KViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewController.swift; sourceTree = "<group>"; };
+		BAB8030E21C19FD40053B2AF /* KPickImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPickImageViewModel.swift; sourceTree = "<group>"; };
+		BAB8031021C1A31A0053B2AF /* KAppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAppCoordinator.swift; sourceTree = "<group>"; };
 		BAE6183C21C1700600B7172D /* Kalkera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalkera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE6183F21C1700600B7172D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BAE6184121C1700600B7172D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BAE6184421C1700600B7172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE6184121C1700600B7172D /* KPickImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPickImageViewController.swift; sourceTree = "<group>"; };
+		BAE6184421C1700600B7172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PickImage.storyboard; sourceTree = "<group>"; };
 		BAE6184621C1700800B7172D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAE6184921C1700800B7172D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAE6184B21C1700800B7172D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE6185021C1700800B7172D /* KalkeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KalkeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE6185421C1700800B7172D /* KalkeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KalkeraTests.swift; sourceTree = "<group>"; };
 		BAE6185621C1700800B7172D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE6185F21C1705500B7172D /* KCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCoordinator.swift; sourceTree = "<group>"; };
+		BAE6186121C1724900B7172D /* KPrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPrimaryButton.swift; sourceTree = "<group>"; };
+		BAE6186321C172FC00B7172D /* KTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KTheme.swift; sourceTree = "<group>"; };
+		BAFE438A21E7DA55006010E8 /* KCrashReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCrashReporter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA86073B21DEBF0000609D90 /* Crashlytics.framework in Frameworks */,
+				BA86073C21DEBF0000609D90 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +90,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA82729121CD33F50008E77C /* UIImage Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA82729221CD340F0008E77C /* UIImage+Noir.swift */,
+				BA82729421CD3EE40008E77C /* UIImage+Slice.swift */,
+			);
+			path = "UIImage Extensions";
+			sourceTree = "<group>";
+		};
+		BA895BA021D29392007B2425 /* Notification Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA895BA121D293A6007B2425 /* Notification+Name.swift */,
+			);
+			path = "Notification Extensions";
+			sourceTree = "<group>";
+		};
+		BAB5C79721E7E331007805FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BAE6184621C1700800B7172D /* Assets.xcassets */,
+				BAB5C79821E7E342007805FA /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		BAE6183321C1700600B7172D = {
 			isa = PBXGroup;
 			children = (
 				BAE6183E21C1700600B7172D /* Kalkera */,
 				BAE6185321C1700800B7172D /* KalkeraTests */,
 				BAE6183D21C1700600B7172D /* Products */,
+				BA86073921DEBEFF00609D90 /* Crashlytics.framework */,
+				BA86073A21DEBEFF00609D90 /* Fabric.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +139,24 @@
 		BAE6183E21C1700600B7172D /* Kalkera */ = {
 			isa = PBXGroup;
 			children = (
+				BAFE438921E7DA46006010E8 /* Common */,
+				BA895BA021D29392007B2425 /* Notification Extensions */,
+				BA82729121CD33F50008E77C /* UIImage Extensions */,
 				BAE6183F21C1700600B7172D /* AppDelegate.swift */,
-				BAE6184121C1700600B7172D /* ViewController.swift */,
-				BAE6184321C1700600B7172D /* Main.storyboard */,
-				BAE6184621C1700800B7172D /* Assets.xcassets */,
+				BAE6184121C1700600B7172D /* KPickImageViewController.swift */,
+				BAB8030E21C19FD40053B2AF /* KPickImageViewModel.swift */,
+				BAE6184321C1700600B7172D /* PickImage.storyboard */,
+				BAB5C79721E7E331007805FA /* Resources */,
 				BAE6184821C1700800B7172D /* LaunchScreen.storyboard */,
 				BAE6184B21C1700800B7172D /* Info.plist */,
+				BAE6185F21C1705500B7172D /* KCoordinator.swift */,
+				BAE6186121C1724900B7172D /* KPrimaryButton.swift */,
+				BAE6186321C172FC00B7172D /* KTheme.swift */,
+				BAB8030C21C199DE0053B2AF /* KViewController.swift */,
+				BAB8031021C1A31A0053B2AF /* KAppCoordinator.swift */,
+				BA895B9E21D27E4F007B2425 /* KLockButton.swift */,
+				BA2E90AE21D8003F004D7D69 /* KDevice.swift */,
+				BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */,
 			);
 			path = Kalkera;
 			sourceTree = "<group>";
@@ -96,6 +170,14 @@
 			path = KalkeraTests;
 			sourceTree = "<group>";
 		};
+		BAFE438921E7DA46006010E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BAFE438A21E7DA55006010E8 /* KCrashReporter.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +188,7 @@
 				BAE6183821C1700600B7172D /* Sources */,
 				BAE6183921C1700600B7172D /* Frameworks */,
 				BAE6183A21C1700600B7172D /* Resources */,
+				BA86073821DEBEAF00609D90 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -178,8 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAE6184A21C1700800B7172D /* LaunchScreen.storyboard in Resources */,
+				BAB5C79921E7E342007805FA /* Colors.xcassets in Resources */,
 				BAE6184721C1700800B7172D /* Assets.xcassets in Resources */,
-				BAE6184521C1700600B7172D /* Main.storyboard in Resources */,
+				BAE6184521C1700600B7172D /* PickImage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +276,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BA86073821DEBEAF00609D90 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 840d75db9c6b644cab70d9be1d0583e2b0b47227 ecb523627294a4142e40187849b0930e0f9f726fb7dbf5cd2200dab5102e1bd6\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAE6183821C1700600B7172D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE6184221C1700600B7172D /* ViewController.swift in Sources */,
+				BA895B9F21D27E4F007B2425 /* KLockButton.swift in Sources */,
+				BAB8031121C1A31A0053B2AF /* KAppCoordinator.swift in Sources */,
+				BAE6184221C1700600B7172D /* KPickImageViewController.swift in Sources */,
+				BA82729321CD340F0008E77C /* UIImage+Noir.swift in Sources */,
+				BA2E90B121D80D25004D7D69 /* KUnitConverter.swift in Sources */,
+				BAFE438B21E7DA55006010E8 /* KCrashReporter.swift in Sources */,
+				BAE6186021C1705500B7172D /* KCoordinator.swift in Sources */,
+				BA895BA221D293A6007B2425 /* Notification+Name.swift in Sources */,
+				BA82729521CD3EE40008E77C /* UIImage+Slice.swift in Sources */,
+				BA2E90AF21D8003F004D7D69 /* KDevice.swift in Sources */,
+				BAE6186221C1724900B7172D /* KPrimaryButton.swift in Sources */,
 				BAE6184021C1700600B7172D /* AppDelegate.swift in Sources */,
+				BAB8030D21C199DE0053B2AF /* KViewController.swift in Sources */,
+				BAB8030F21C19FD40053B2AF /* KPickImageViewModel.swift in Sources */,
+				BAE6186421C172FC00B7172D /* KTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +339,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BAE6184321C1700600B7172D /* Main.storyboard */ = {
+		BAE6184321C1700600B7172D /* PickImage.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BAE6184421C1700600B7172D /* Base */,
 			);
-			name = Main.storyboard;
+			name = PickImage.storyboard;
 			sourceTree = "<group>";
 		};
 		BAE6184821C1700800B7172D /* LaunchScreen.storyboard */ = {
@@ -361,8 +479,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Kalkera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -380,7 +504,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PJL6N7ZC7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Kalkera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +517,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};

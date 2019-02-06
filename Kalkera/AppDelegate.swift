@@ -7,15 +7,21 @@
 //
 
 import UIKit
+import Fabric
+import Crashlytics
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var appCoordinator: KAppCoordinator = KAppCoordinator(viewController: UINavigationController())
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        Fabric.with([Crashlytics.self])
+        window = UIWindow(frame: UIScreen.main.bounds)
+        appCoordinator.start(animated: false)
+        window?.rootViewController = appCoordinator.rootViewController
+        window?.makeKeyAndVisible()
         return true
     }
 
