@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIImage {
-    func slice(rows: Int, columns: Int) -> [UIImage]? {
+    func slice(rows: Int, columns: Int) -> [KSlice]? {
         let width: CGFloat
         let height: CGFloat
 
@@ -25,7 +25,7 @@ extension UIImage {
         let tileWidth = width / CGFloat(columns)
         let tileHeight = height / CGFloat(rows)
 
-        var images: [UIImage] = []
+        var slices: [KSlice] = []
 
         guard let cgImageOriginal = cgImage else {
             KCrashReporter.report(description: "Couldn't get cgImage", code: .unexpectedNil, throw: true)
@@ -51,15 +51,15 @@ extension UIImage {
                     KCrashReporter.report(description: "Couldn't crop cgImage", code: .unexpectedNil, throw: true)
                     return nil
                 }
-                images.append(UIImage(cgImage: tileCgImage, scale: scale, orientation: imageOrientation))
+                slices.append(KSlice(image: UIImage(cgImage: tileCgImage, scale: scale, orientation: imageOrientation), position: KSlicePosition(rawValue: slices.count) ?? .topLeft))
                 x += tileWidth
             }
             y += tileHeight
         }
-        guard images.count == rows*columns else {
-            KCrashReporter.report(description: "Wrong number of rows: \(images.count), expected \(rows*columns)", code: .dataInconsistency, throw: true)
+        guard slices.count == rows*columns else {
+            KCrashReporter.report(description: "Wrong number of rows: \(slices.count), expected \(rows*columns)", code: .dataInconsistency, throw: true)
             return nil
         }
-        return images
+        return slices
     }
 }

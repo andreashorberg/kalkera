@@ -15,7 +15,7 @@ public enum KDevice {
 }
 
 public extension UIDevice {
-    public var deviceType: KDevice {
+    var deviceType: KDevice {
         guard UIDevice.current.userInterfaceIdiom == .pad else { return .notIpad }
         var systemInfo = utsname()
         uname(&systemInfo)

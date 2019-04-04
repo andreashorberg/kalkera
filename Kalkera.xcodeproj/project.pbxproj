@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BA2E90AF21D8003F004D7D69 /* KDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E90AE21D8003F004D7D69 /* KDevice.swift */; };
 		BA2E90B121D80D25004D7D69 /* KUnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */; };
+		BA32B54322415F8A00EAF143 /* KSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA32B54222415F8A00EAF143 /* KSlice.swift */; };
 		BA82729321CD340F0008E77C /* UIImage+Noir.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82729221CD340F0008E77C /* UIImage+Noir.swift */; };
 		BA82729521CD3EE40008E77C /* UIImage+Slice.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA82729421CD3EE40008E77C /* UIImage+Slice.swift */; };
 		BA86073B21DEBF0000609D90 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA86073921DEBEFF00609D90 /* Crashlytics.framework */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		BA2E90AE21D8003F004D7D69 /* KDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDevice.swift; sourceTree = "<group>"; };
 		BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KUnitConverter.swift; sourceTree = "<group>"; };
+		BA32B54222415F8A00EAF143 /* KSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSlice.swift; sourceTree = "<group>"; };
 		BA82729221CD340F0008E77C /* UIImage+Noir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Noir.swift"; sourceTree = "<group>"; };
 		BA82729421CD3EE40008E77C /* UIImage+Slice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Slice.swift"; sourceTree = "<group>"; };
 		BA86073921DEBEFF00609D90 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				BA895B9E21D27E4F007B2425 /* KLockButton.swift */,
 				BA2E90AE21D8003F004D7D69 /* KDevice.swift */,
 				BA2E90B021D80D25004D7D69 /* KUnitConverter.swift */,
+				BA32B54222415F8A00EAF143 /* KSlice.swift */,
 			);
 			path = Kalkera;
 			sourceTree = "<group>";
@@ -229,9 +232,11 @@
 				TargetAttributes = {
 					BAE6183B21C1700600B7172D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					BAE6184F21C1700800B7172D = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = BAE6183B21C1700600B7172D;
 					};
 				};
@@ -304,6 +309,7 @@
 			files = (
 				BA895B9F21D27E4F007B2425 /* KLockButton.swift in Sources */,
 				BAB8031121C1A31A0053B2AF /* KAppCoordinator.swift in Sources */,
+				BA32B54322415F8A00EAF143 /* KSlice.swift in Sources */,
 				BAE6184221C1700600B7172D /* KPickImageViewController.swift in Sources */,
 				BA82729321CD340F0008E77C /* UIImage+Noir.swift in Sources */,
 				BA2E90B121D80D25004D7D69 /* KUnitConverter.swift in Sources */,
@@ -493,7 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -516,7 +522,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.Kalkera;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -536,7 +542,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.KalkeraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkera.app/Kalkera";
 			};
@@ -557,7 +563,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.imaginareal.KalkeraTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalkera.app/Kalkera";
 			};

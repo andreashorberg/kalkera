@@ -11,7 +11,7 @@ import UIKit
 class KPickImageViewModel: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     var originalImage: UIImage?
     var imageChanged: ((UIImage) -> ())?
-    var slicesChanged: (([UIImage]) -> ())?
+    var slicesChanged: (([KSlice]) -> ())?
     var previousBrightness: CGFloat = 1
     var isSliced: Bool = false
     var editedImage: UIImage?

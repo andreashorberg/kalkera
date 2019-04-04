@@ -32,6 +32,8 @@ class KPickImageViewController: KViewController {
     @IBOutlet weak var imageViewTrailing: NSLayoutConstraint!
     @IBOutlet weak var toolbarBackground: UIView!
 
+
+    // MARK: - View lifecycle & events
     override func viewDidLoad() {
         super.viewDidLoad()
         bindViewModel()
@@ -40,7 +42,7 @@ class KPickImageViewController: KViewController {
         displaySlices(show: false, animated: false)
         configureObservers(add: true)
         resetButton.isEnabled = false
-
+        view.backgroundColor = UIColor(red: 42/255, green: 42/255, blue: 42/255, alpha: 1.0)
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
@@ -120,7 +122,7 @@ class KPickImageViewController: KViewController {
             UIView.performWithoutAnimation {
                 self?.removeSlices()
                 self?.addSlices(slices)
-                self?.setImage(slices.first)
+                self?.setImage(slices.first?.image)
                 self?.view.layoutIfNeeded()
             }
             self?.displaySlices(show: true, animated: true)
@@ -150,14 +152,14 @@ class KPickImageViewController: KViewController {
         slices.subviews.forEach { $0.removeFromSuperview() }
     }
 
-    func addSlices(_ slices: [UIImage]) {
+    func addSlices(_ slices: [KSlice]) {
         slices.forEach(addSlice(_:))
     }
-    func addSlice(_ slice: UIImage) {
+    func addSlice(_ slice: KSlice) {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleAspectFit
-        imageView.image = slice
+        imageView.image = slice.image
         imageView.translatesAutoresizingMaskIntoConstraints = false
 
         let tap = UITapGestureRecognizer(target: self, action: #selector(sliceTapped(sender:)))
@@ -173,10 +175,10 @@ class KPickImageViewController: KViewController {
     func displayToolbar(show: Bool, animated: Bool) {
         toolbarLeading.constant = show ? 0 : -100
         guard animated else { return }
-        UIView.animate(withDuration: 1) {
+        performAnimations({
             self.view.setNeedsLayout()
             self.view.layoutIfNeeded()
-        }
+        })
     }
 
     func displaySlices(show: Bool, animated: Bool, completion: ((Bool)->())? = nil) {
@@ -185,10 +187,14 @@ class KPickImageViewController: KViewController {
             completion?(true)
             return
         }
-        UIView.transition(with: self.view, duration: 1, options: .curveEaseInOut, animations: {
+        performAnimations({
             self.view.setNeedsLayout()
             self.view.layoutIfNeeded()
         }, completion: completion)
+    }
+
+    func performAnimations(_ animations: @escaping () -> (), completion: ((Bool) -> ())? = nil) {
+        UIView.transition(with: self.view, duration: 0.35, options: .curveEaseInOut, animations: animations, completion: completion)
     }
 
     func displayTools(show: Bool, animated: Bool) {
